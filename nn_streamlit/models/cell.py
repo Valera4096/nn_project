@@ -16,7 +16,7 @@ model_.classifier[3] = nn.Linear(1024, 4)
 
 model_.to(device)
 
-model_.load_state_dict(torch.load('models/weights_cell_2.pt'))
+model_.load_state_dict(torch.load('/home/valera/ds_bootcamp/nn_project/nn_streamlit/models/weights_cell_2.pt'))
 
 model_cell = model_
 
